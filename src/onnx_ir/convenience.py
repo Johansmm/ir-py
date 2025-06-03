@@ -11,6 +11,7 @@ __all__ = [
     "replace_nodes_and_values",
     "create_value_mapping",
     "insert_nodes_in_value",
+    "remove_connected_nodes",
 ]
 
 from onnx_ir._convenience import (
@@ -20,6 +21,7 @@ from onnx_ir._convenience import (
     replace_all_uses_with,
     replace_nodes_and_values,
     insert_nodes_in_value,
+    remove_connected_nodes,
 )
 
 # NOTE: Do not implement any other functions in this module.
