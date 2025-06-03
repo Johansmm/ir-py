@@ -13,4 +13,5 @@
 .. autofunction:: replace_nodes_and_values
 .. autofunction:: create_value_mapping
 .. autofunction:: insert_nodes_in_value
+.. autofunction:: remove_connected_nodes
 ```
